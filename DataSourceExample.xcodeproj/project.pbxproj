@@ -13,6 +13,7 @@
 		C202E76B264016110001C2EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C202E769264016110001C2EC /* Main.storyboard */; };
 		C202E76D264016120001C2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C202E76C264016120001C2EC /* Assets.xcassets */; };
 		C202E770264016120001C2EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C202E76E264016120001C2EC /* LaunchScreen.storyboard */; };
+		C202E77A264017800001C2EC /* ImageInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C202E779264017800001C2EC /* ImageInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C202E76C264016120001C2EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C202E76F264016120001C2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C202E771264016120001C2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C202E779264017800001C2EC /* ImageInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C202E76C264016120001C2EC /* Assets.xcassets */,
 				C202E76E264016120001C2EC /* LaunchScreen.storyboard */,
 				C202E771264016120001C2EC /* Info.plist */,
+				C202E779264017800001C2EC /* ImageInfoView.swift */,
 			);
 			path = DataSourceExample;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C202E77A264017800001C2EC /* ImageInfoView.swift in Sources */,
 				C202E768264016110001C2EC /* ViewController.swift in Sources */,
 				C202E764264016110001C2EC /* AppDelegate.swift in Sources */,
 				C202E766264016110001C2EC /* SceneDelegate.swift in Sources */,
